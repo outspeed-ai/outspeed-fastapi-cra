@@ -8,6 +8,7 @@ This project consists of a React frontend and a FastAPI backend.
 - Node.js and npm
 - Python 3.8+
 - uv (for python package management)
+- Outspeed API key (https://dashboard.outspeed.com)
 
 ## Running the Apps
 
@@ -20,7 +21,16 @@ npm start
 ```
 This will start the React development server at [http://localhost:3000](http://localhost:3000).
 
-### 2. Start the FastAPI Backend
+### 2. Setup `OUTSPEED_API_KEY`
+
+In the backend, create a .env file and add your `OUTSPEED_API_KEY`
+
+```bash
+cd fastapi-backend
+cp .env.example .env
+```
+
+### 3. Start the FastAPI Backend
 
 Setup the environment
 
