@@ -56,9 +56,8 @@ cp .env.example .env
 #### 2. Setup the environment
 
 ```bash
-uv venv
+uv sync # this will install all packages & create a virtual environment
 source .venv/bin/activate
-uv sync # this will install all packages
 ```
 
 #### 3. Start the FastAPI Backend
