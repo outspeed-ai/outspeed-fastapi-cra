@@ -68,12 +68,7 @@ uvicorn main:app --reload --port 8080
 
 This will start the FastAPI server at [http://localhost:8080](http://localhost:8080).
 
----
+### Notes:
 
 - Make sure your FastAPI `main.py` is in the root directory or adjust the command accordingly.
 - The React app expects the backend to be running at `http://localhost:8080` for the `/token` endpoint.
-
-## Notes
-
-- Update environment variables in your `.env` file as needed.
-- For production, consider using build tools and a production server.
